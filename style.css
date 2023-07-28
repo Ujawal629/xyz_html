@@ -1,0 +1,143 @@
+body{
+   margin: 0%;
+   padding: 0%;
+   height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: black;
+}
+
+.box1{
+    margin-top: 25px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: gold;
+    border-radius: 50px;
+}
+
+.courser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62%;
+    border-radius: 50px;
+
+}
+
+img {
+    border-radius: 50px;
+}
+
+.box3 {
+    width: 320px;
+    background-color: white;
+    height: 170px;
+    border-radius: 25px;
+}
+
+.box4{
+    background-color: white;
+    height: 400px;
+    width: 70%;
+    align-self: center;
+    border-radius: 25px;
+}
+
+.box5{
+    background-color: gold;
+    width: 80%;
+    height: 600px;
+    margin-left: 130px;
+    border-radius: 25px;
+}
+.two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.card {
+    transition: 1s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.box6{
+    height: 320px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.three {
+    margin: 140px;
+    width: 300px;
+    height: 240px;
+    background-color: black;
+}
+
+.four {
+    background-color: black;
+    width: 350px;
+    margin: 140px;
+}
+
+.box7 {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.five {
+    height: 100px;
+    margin: 140px;
+}
+
+.six {
+    margin-top: 260px;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.seven {
+    width: 180px;
+    height: 180px;
+    margin-top: 20px;
+}
+
+.eight {
+    background-color: white;
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+@media (min-width:820px)
+{
+    .box2 {
+        width: 820px;
+    }
+}
+
+
